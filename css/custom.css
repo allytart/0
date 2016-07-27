@@ -1,0 +1,10 @@
+/* 640 x 480px */
+.folio-col-4-img-crop {
+  object-fit:cover;
+  /*width: 355px;
+  height: 270px;*/
+}
+
+.project-hover {
+  cursor: url(../images/slide/1bookL.png), auto;
+}

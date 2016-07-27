@@ -359,16 +359,17 @@ ul li {
 
 .heading {
     text-align: center;
+    position:relative;
 }
 
 .heading-left {
     text-align: left;
-    position: relative
+    position: relative;
 }
 
 .heading-right {
     text-align: right;
-    position: relative
+    position: relative;
 }
 
 .sub-heading {
