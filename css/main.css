@@ -4158,13 +4158,13 @@ h5.hero-heading-alt {
 .carousel-control.left:hover {
     /*cursor: url(../images/slide/llamaL_small.png), auto;*/
     /*cursor: url(../images/slide/left.png), auto;*/
-    cursor: url(../images/slide/1bookL.png), auto;
+    cursor: url(../images/slide/peacock-02.png), auto;
 }
 
 .carousel-control.right:hover {
     /*cursor: url(../images/slide/llamaR_small.png), auto;*/
     /*cursor: url(../images/slide/rightl.png), auto;*/
-    cursor: url(../images/slide/1teaR.png), auto;
+    cursor: url(../images/slide/peacock-01.png), auto;
 }
 
 .carousel-control.control-style-2.left,
