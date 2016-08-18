@@ -1,0 +1,17 @@
+/* 640 x 480px */
+.folio-col-4-img-crop {
+  object-fit:cover;
+  /*width: 355px;
+  height: 270px;*/
+}
+
+.project-hover {
+  cursor: url(../images/slide/1bookL.png), auto;
+}
+
+footer .contact-form-widget .form-control {
+    background-color: transparent;
+    border: 1px solid rgba(204, 204, 204, 1);
+    color: rgba(96, 155, 255, 1); /*#ececec*/
+    font-weight: normal
+}
