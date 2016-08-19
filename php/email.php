@@ -1,10 +1,10 @@
 <?php
 session_cache_limiter( 'nocache' );
 $subject = $_REQUEST['You have received a mail']; // Subject of your email
-$to = "your@email.com";  //Recipient's E-mail
+$to = "alvina.yau@gmail.com";  //Recipient's E-mail
 
 $headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= "From: " . $_REQUEST['name'].'<'.$_REQUEST['email'] .'>'. "\r\n"; 
+$headers .= "From: " . $_REQUEST['name'].'<'.$_REQUEST['email'] .'>'. "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
 $message  = 'Name: ' . $_REQUEST['name'] . "<br>";
