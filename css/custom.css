@@ -79,3 +79,22 @@ footer .contact-form-widget .form-control {
     background-position: center;
     background-attachment: scroll;
 }
+
+/*Mobile Hide*/
+
+.mobile-hide,
+.desktop-hide, {
+
+}
+
+@media (max-width:400px) {
+  .mobile-hide {
+    display:none;
+  }
+}
+
+@media (min-width:400px) {
+  .desktop-hide {
+    display:none;
+  }
+}
