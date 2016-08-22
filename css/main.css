@@ -1,7 +1,7 @@
 /*---------------------------------------------------------------------------
   Theme: EXORT
   Author: Theme_Nate
-  Version: 1.1.6
+  Version: 1.1.7
 ----------------------------------------------------------------------------*/
 
 
@@ -359,17 +359,16 @@ ul li {
 
 .heading {
     text-align: center;
-    position:relative;
 }
 
 .heading-left {
     text-align: left;
-    position: relative;
+    position: relative
 }
 
 .heading-right {
     text-align: right;
-    position: relative;
+    position: relative
 }
 
 .sub-heading {
@@ -429,14 +428,14 @@ ul li {
 .heading-left:before,
 .heading-right:before {
     width: 30px;
-    bottom: -14px; /*-14*/
+    bottom: -14px;
 }
 
 .heading:after,
 .heading-left:after,
 .heading-right:after {
     width: 40px;
-    bottom: -19px; /*-19*/
+    bottom: -19px;
 }
 
 .heading:before,
@@ -4156,15 +4155,11 @@ h5.hero-heading-alt {
 }
 
 .carousel-control.left:hover {
-    /*cursor: url(../images/slide/llamaL_small.png), auto;*/
-    /*cursor: url(../images/slide/left.png), auto;*/
-    cursor: url(../images/slide/peacock-02.png), auto;
+    cursor: url(../images/slide/left.png), auto;
 }
 
 .carousel-control.right:hover {
-    /*cursor: url(../images/slide/llamaR_small.png), auto;*/
-    /*cursor: url(../images/slide/rightl.png), auto;*/
-    cursor: url(../images/slide/peacock-01.png), auto;
+    cursor: url(../images/slide/right.png), auto;
 }
 
 .carousel-control.control-style-2.left,
@@ -8433,9 +8428,10 @@ button {
     color: #fff
 }
 
+/* Added v 1.1.7 */
 .contact-form-wrapper .validation {
-    background-color: #FBDEDE;
-    border-color: #C32A2A;
+   background-color: #FBDEDE !important;
+   border-color: #C32A2A !important;
 }
 
 
