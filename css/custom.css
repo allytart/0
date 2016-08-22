@@ -26,18 +26,39 @@ footer .contact-form-widget .form-control {
 }
 
 /*Heading Decoration Fix*/
-.heading:before,
+
+.heading:before {
+    width: 30px;
+    bottom: -224px;
+    position: absolute;
+}
+
 .heading-left:before,
 .heading-right:before {
     width: 30px;
-    bottom: -224px;
+    bottom: -24px;
 }
 
-.heading:after,
+.heading:after {
+  width: 40px;
+  bottom: -229px;
+  position: absolute;
+}
+
 .heading-left:after,
 .heading-right:after {
     width: 40px;
-    bottom: -229px;
+    bottom: -29px;
+}
+
+.heading-left {
+    text-align: left;
+    position: relative;
+}
+
+.heading-right {
+    text-align: right;
+    position: relative;
 }
 
 /*.menu-transparent.push-top {
