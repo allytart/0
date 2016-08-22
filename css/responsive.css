@@ -725,9 +725,11 @@
     .owl-buttons {
         display: none
     }
+	/* Added v 1.1.7 */
     /* Parallax */
     .parallax {
-        background-position: center
+        background-position: center;
+		background-attachment: scroll;
     }
 	.video-parallax {
 		min-height: 270px

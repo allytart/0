@@ -1,5 +1,5 @@
 jQuery(function($) {
-
+    
 	'use strict';
     //Preloader
 
@@ -46,7 +46,7 @@ jQuery(function($) {
     });
 
 
-    //Side Menu
+    //Side Menu	
     $("#menu-toggle").on('click', function(e) {
         e.preventDefault();
         $(".side-nav").toggleClass("toggled");
@@ -63,7 +63,7 @@ jQuery(function($) {
     });
 
 
-    //OnePage Menu tracking
+    //OnePage Menu tracking 
     $('body').scrollspy({
         target: ".op-nav .custom-collapse"
     })
@@ -137,7 +137,7 @@ jQuery(function($) {
     });
 
 
-    // Works Item Lightbox
+    // Works Item Lightbox				
     $(".lightbox-image").magnificPopup({
         type: 'image',
         gallery: {
@@ -165,13 +165,6 @@ jQuery(function($) {
         fixedContentPos: false
     });
 
-// START CUSTOM LIGHTBOX
-    $(".lightbox-text").magnificPopup({
-        type: 'text',
-        mainClass: "mfp-fade"
-
-    });
-// END CUSTOM LIGHTBOX
 
     // WOW Animation
     var wow = new WOW({
@@ -220,7 +213,7 @@ jQuery(function($) {
     });
 
 
-    // Owl-carousel
+    // Owl-carousel    
 
     // Single Item
     // Basic Single Slide no pagination & navigation
@@ -268,7 +261,7 @@ jQuery(function($) {
     });
 
     // 2 Item
-    // Basic Owl-carousel 2 item
+    // Basic Owl-carousel 2 item 
     $(".owl-2").owlCarousel({
         items: 2,
         slideSpeed: 300,
@@ -317,7 +310,7 @@ jQuery(function($) {
     });
 
     // 3 Item
-    // Basic Owl-carousel 3 item
+    // Basic Owl-carousel 3 item 
     $(".owl-3").owlCarousel({
         items: 3,
         slideSpeed: 300,
@@ -370,7 +363,7 @@ jQuery(function($) {
     });
 
     // 4 Item
-    // Basic Owl-carousel 4 item
+    // Basic Owl-carousel 4 item 
     $(".owl-4").owlCarousel({
         items: 4,
         slideSpeed: 300,
@@ -423,7 +416,7 @@ jQuery(function($) {
     });
 
     // 5 Item
-    // Basic Owl-carousel 5 item
+    // Basic Owl-carousel 5 item 
     $(".owl-5").owlCarousel({
         items: 5,
         slideSpeed: 300,
@@ -578,7 +571,7 @@ jQuery(function($) {
 			var quantityInput = jQuery(this).parents('.quantity-form').find('input.qty'),
 				newValue = parseInt(quantityInput.val(), 10) - 1,
 				minValue = parseInt(quantityInput.attr('min'), 10);
-
+			
 			if (!minValue) {
 				minValue = 1;
 			}
@@ -592,7 +585,7 @@ jQuery(function($) {
 	});
 
 
-    //Portfolio Isotope
+    //Portfolio Isotope	
     if ($.fn.isotope && $.fn.imagesLoaded && ($('.portfolio').length > 0)) {
 
         $('.portfolio-isotope').imagesLoaded(function() {
@@ -619,7 +612,7 @@ jQuery(function($) {
     var container = $('.portfolio-isotope');
 
     container.imagesLoaded(function() {
-
+        
 		$('.portfolio-isotope').isotope({
             itemSelector: '.folio-item',
 			transitionDuration: '0.5s',
@@ -631,7 +624,7 @@ jQuery(function($) {
     });
 
 
-    //Blog Masonry
+    //Blog Masonry	
     $('.blog-post.masonry, .layout-masonry').imagesLoaded(function() {
         $('.blog-post.masonry, .layout-masonry').isotope({
             layoutMode: 'masonry',
